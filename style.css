@@ -1,0 +1,41 @@
+#form{
+  padding: 5%;
+  width: 50%;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+}
+h1{
+  width: 50%;
+  margin: 0 auto;
+}
+.cont{
+  margin-bottom: 5%;
+}
+input,thead{
+  width: 100%;
+  border-bottom: 2px solid rgb(197, 189, 189);
+}
+th{
+  background: rgb(197, 189, 189);
+}
+table{
+  /* border: 1px solid red; */
+  width: 100%;
+}
+td{
+  text-align: center;
+  /* border: 1px solid yellow; */
+}
+.success,.error{
+  width: 50%;
+  text-align: center;
+  color: white;
+  padding: 5px;
+  margin: 5px auto
+}
+.success{
+  background: green;
+}
+.error{
+  background: red;
+}
